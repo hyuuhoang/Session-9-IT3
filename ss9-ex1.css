@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100vh; /* Chiều cao 100% màn hình */
+    background-color: #eee;
+}
+.container {
+    width: 500px;
+    height: 350px;
+    border: 2px solid #000000;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center; /* Căn giữa box theo chiều ngang */
+    align-items: center; /* Căn giữa box theo chiều dọc */
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #2196F3;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 16px;
+}

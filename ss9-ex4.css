@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hea{
+    height: 50px;
+    background-color: #3498db;
+    color: white;
+    gap: 10px;
+    margin: 10px;
+    padding: 7px;
+}
+.sid{
+    width: 25%;
+    height: 400px;
+    background-color: #2ecc71;
+    color: white;
+    padding: 7px;
+}
+.con{
+    width: 75%;
+    height: 400px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 7px;
+}
+.foo{
+    height: 50px;
+    background-color: #9b59b6;
+    color: white;
+    margin: 10px;
+    padding: 7px;
+}
+.id{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+
